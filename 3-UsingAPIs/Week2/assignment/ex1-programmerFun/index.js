@@ -48,8 +48,8 @@ function renderImage(data) {
 
 function renderError(error) {
   const errh1 = document.createElement(`h1`);
-  errDiv.textContent = error;    
-  document.body.appendChild(errDiv);
+  errh1.textContent = error;    
+  document.body.appendChild(errh1);
 
   console.log(error);
 }
