@@ -47,7 +47,7 @@ function renderImage(data) {
 }
 
 function renderError(error) {
-  const errDiv = document.createElement(`div`);
+  const errh1 = document.createElement(`h1`);
   errDiv.textContent = error;    
   document.body.appendChild(errDiv);
 
