@@ -25,7 +25,6 @@ async function rollDice() {
     });
 
     const promise = await Promise.race(promiseArrays);
-    return promise;
 }
 
 async function main() {
