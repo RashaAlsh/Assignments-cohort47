@@ -14,16 +14,13 @@
 
   }
   
-  #pokemon-img {
+  #PokemonImg {
     width: 150px;
     margin: 0;
   }
+
   
-  .hide {
-    display: none;
-  }
-  
-  .dropdown, button {
+  #selectPok, button {
     font-family: "Roboto" , sans-serif;
     font-size: 16px;
     border: none;
